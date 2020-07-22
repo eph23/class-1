@@ -1,0 +1,11 @@
+// Add additional styles here. For example, overwrite certain styles or add new components.
+// Tip: You can use bootstrap's powerful mixins here!
+
+
+$spacer: 0.1rem;
+$spacers: (0:0);
+@for $i from 1 through 150 {
+    $spacers: map-merge($spacers, (
+        $i: ($i * $spacer)
+    ));
+}

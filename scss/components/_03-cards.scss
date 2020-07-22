@@ -1,0 +1,17 @@
+.card-course {
+  padding: 2rem;
+}
+.card-extra {
+  padding: 2rem;
+}
+.profile-card {
+  height: 45vh;
+  position: relative;
+
+  &__img-container {
+    position: absolute;
+    bottom: -10rem;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+  }
+}
